@@ -1,0 +1,86 @@
+
+body{
+    background-color: rgb(75, 74, 74);
+display: flex;
+justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 10px gray, -5px -5px 10px gray;
+    border-radius: 5px;
+    margin-top: 80px;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.h1{
+    color: white;
+    margin-left: 36%;
+}
+.input{
+border: none;
+height: 35px;
+width: 250px;
+border-radius: 3px;
+padding-left: 20px;
+margin-left: 20%;
+display: block;
+margin-top: 80px;
+
+}
+.input::placeholder{
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+.addtaskbtn{
+    margin-left: 400px;
+    margin-top: -55px;
+    display: block;
+    font-size: 17px;
+   
+    background-color: rgb(41, 196, 183)
+}
+
+.text{
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 10px;
+  flex: 1;
+}
+button{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    padding: 5px 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.25s ease;
+    background-color: rgb(192, 190, 190);
+    margin: 5px;
+    font-size: 16px;
+    
+}
+.deletebtnn{
+    background-color: hsl(10, 90%, 50%);
+}
+.moveupbtn{
+    background-color: hsl(207, 90%, 54%, 0.836);
+}
+.movebtn{
+    background-color: hsl(207, 90%, 54%, 0.836);
+}
+
+ol li{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: hsl(0, 0%, 97%);
+    margin-bottom: 10px;
+    border: 3px solid hsla(0,0%,85%, 0.75);
+    display: flex;
+    align-items: center;
+}
+.editbtn{
+    background-color: hsl(207, 90%, 54%, 0.836) ;
+}
+.cleartasksbtn{
+    background-color: rgb(221, 32, 32);
+}
